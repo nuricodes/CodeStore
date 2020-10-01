@@ -1,0 +1,11 @@
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+header h1 span {
+    color: green;
+}

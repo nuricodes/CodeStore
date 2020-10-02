@@ -12,7 +12,7 @@ class Layout extends React.Component {
         </head>
         <body>
           <header>
-            <h1><span>Code</span>Pad++
+            <h1><span>Code</span>Store
             <nav>
               <span>
                 <a href="/auth/signup">|SIGNUP|</a>

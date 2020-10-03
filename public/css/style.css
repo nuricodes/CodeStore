@@ -1,11 +1,75 @@
-header {
-    text-align: center;
+/* LANDING */
+
+.landing {
+    margin-top: 220px;
+    padding: 5%;
+}
+.display-3 {
+    font-size: 43px;
+}
+.landing-message {
+    line-height: 1.5em;
+    font-size: 18px;
+}
+/* INDEX */
+
+.landingform {
+    border: 1px solid darkgray;
+    margin-bottom: 100%;
+    margin-left: 68%;
+    margin-top: -450px;
+    padding: 5%;
+    width: 350px;
+    height: 480px;
+    box-shadow: 0 7px 30px rgba(59, 121, 102, 0.3);
+}
+.terms {
+    padding-top: .8em;
 }
 
-main {
-    text-align: center;
-}
+/* SIGN UP */
 
-header h1 span {
-    color: green;
+.signupcontainer {
+    position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 340px;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: remy(3px);
+  box-shadow: 0 7px 30px rgba(59, 121, 102, 0.3);
+}
+.form {
+width: 50%;
+height: 100%;
+color: #fff;
+}
+#login { 
+    background-color: #17A17F;
+    color: white;
+    width: 300px;
+    height: 350px;
+}
+#signup {
+    border: .5px solid black;
+}
+.logindiv {
+    border: 1px solid darkgray;
+    margin-top: 125px;
+    margin-right: 60%;
+    padding: 5%;
+    width: 650px;
+    height: 480px;
+    box-shadow: 0 7px 30px rgba(59, 121, 102, 0.3);
+    margin-left: 30%;
+    
 }

@@ -62,6 +62,9 @@ color: #fff;
 #signup {
     border: .5px solid black;
 }
+
+/*LOG IN*/
+
 .logindiv {
     border: 1px solid darkgray;
     margin-top: 125px;
@@ -71,5 +74,58 @@ color: #fff;
     height: 480px;
     box-shadow: 0 7px 30px rgba(59, 121, 102, 0.3);
     margin-left: 30%;
-    
+}
+
+/* Create new note*/
+.sidebar {
+  background: #343A40;
+  width: 350px;
+  height: 100vh;
+  margin-right: 30px;
+  overflow: scroll;
+}
+
+/* Creating new notes */
+#background-color {
+    background-color: #f5f5f5;
+}
+#notesContainer {
+    background-color: white;
+    color: #555;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+#notesContainer,
+#notesContainer ul {
+    padding: 0;
+}
+#notesContainer {
+    border: 1px dashed #aaa;
+    width: 400px;
+    height: 325px;
+    margin-top: 13%;
+    margin-left: 37%;
+    position: absolute;
+}
+
+#addIcon {
+    top: 50%;
+    left: 52%;
+    opacity: 1;
+    width: 60px;
+    height: 55px;
+    font-size: 80px;
+    cursor: pointer;
+    line-height: 42px;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    visibility: visible;
+    border: 1px dashed #aaa;
+    transform: translate(-50%, -50%);
+    transition: visibility, opacity 0.3s ease-in-out;
+}
+.new {
+    display: inline-block;
 }

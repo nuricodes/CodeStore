@@ -6,10 +6,13 @@ class Index extends React.Component {
     const {notes} = this.props;
     return (
       <Layout title="My Notes">
-        <h1> My Notes </h1>
-        <a href="/notes/new">
-          <button>New Note</button>
-          </a>
+        <body id="background-color">
+        <ul id="notesContainer">
+        <li id="addNoteContainer" class="noteContainer">
+            <a href="/notes/new"><span id="addIcon" title="Click to add a note" onclick="addNote()">+</span></a>
+        </li>
+    </ul>
+          
         {notes.map((note) => (
           <div>
         <h2>{note.note}</h2>
@@ -21,6 +24,7 @@ class Index extends React.Component {
         </form>
         </div>
         ))}
+        </body>
       </Layout>
     );
   }

@@ -1,27 +1,50 @@
 /* LANDING */
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.homepage {
+    background-image: url('../img/background.png');
+    min-height: 95vh;
+    background-position: center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
 
 .landing {
-    margin-top: 220px;
     padding: 5%;
+    padding: 7.5rem 2rem 2rem 2rem;
+    margin: 0 auto;
+    /* padding-left: 4rem; */
+    /* display: flex; */
+    
 }
-.display-3 {
-    font-size: 43px;
+
+.landing h1 {
+    font-size: 45px;
+    font-weight: 300;
+    
 }
 .landing-message {
     line-height: 1.5em;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: lighter; 
 }
-/* INDEX */
+/* SIGNUP COMPONENT */
 
 .landingform {
     border: 1px solid darkgray;
-    margin-bottom: 100%;
-    margin-left: 68%;
-    margin-top: -450px;
+    position: relative;
+    /* margin: 0; */
+    margin-left: 10rem;
+    margin-top: 0;
+    display: inline-block;
     padding: 5%;
     width: 350px;
     height: 480px;
-    box-shadow: 0 7px 30px rgba(59, 121, 102, 0.3);
+    box-shadow: 5px 2px 23px 5px rgba(100, 121, 102, 0.3);
 }
 .terms {
     padding-top: .8em;

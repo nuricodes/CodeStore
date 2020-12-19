@@ -2,15 +2,25 @@
 * {
     box-sizing: border-box;
     overflow: hidden;
-
 }
+
+.navbar-toggler-icon {
+    /* color: white;
+    font-size: 1.6rem; */
+}
+/* .logo {
+    height: 50px;
+   top: -10px;
+} */
 .homepage {
-    background-image: url('../img/background.png');
-    min-height: 95vh;
+    background: url('../img/background.png');
     background-position: center;
     background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
+   height: 100vh;
+
+   
 }
 
 .landing {
@@ -36,15 +46,16 @@
 
 .landingform {
     border: 1px solid darkgray;
+    border-radius: .5rem;
     position: relative;
     /* margin: 0; */
-    margin-left: 10rem;
+    margin-left: 11rem;
     margin-top: 0;
-    display: inline-block;
+    display: block;
     padding: 5%;
     width: 350px;
     height: 480px;
-    box-shadow: 5px 2px 23px 5px rgba(100, 121, 102, 0.3);
+    box-shadow: 5px 2px 23px 5px rgba(81, 163, 211, 0.3);
 }
 .terms {
     padding-top: .8em;
@@ -99,56 +110,77 @@ color: #fff;
     margin-left: 30%;
 }
 
-/* Create new note*/
-.sidebar {
-  background: #343A40;
-  width: 350px;
-  height: 100vh;
-  margin-right: 30px;
-  overflow: scroll;
+
+/* New note button */
+
+#plus {
+    width: 100px;
+  cursor:pointer;
+  transition: all .3s ease 0s;
+  height: 100px;
+  background: rgba(16,89,170);
+  border-radius: 50%;
+  position: fixed;
+    bottom: 65px;
+    right: 65px;
+    
+    
+    
 }
 
-/* Creating new notes */
-#background-color {
-    background-color: #f5f5f5;
+#addNoteContainer {
+    font-size: 40px;
+    text-align: center;
 }
-#notesContainer {
-    background-color: white;
-    color: #555;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-#notesContainer,
-#notesContainer ul {
-    padding: 0;
-}
-#notesContainer {
-    border: 1px dashed #aaa;
-    width: 400px;
-    height: 325px;
-    margin-top: 13%;
-    margin-left: 37%;
-    position: absolute;
-}
+
 
 #addIcon {
-    top: 50%;
-    left: 52%;
-    opacity: 1;
-    width: 60px;
-    height: 55px;
-    font-size: 80px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 100px;
     cursor: pointer;
-    line-height: 42px;
-    position: absolute;
-    border-radius: 5px;
-    text-align: center;
-    visibility: visible;
-    border: 1px dashed #aaa;
-    transform: translate(-50%, -50%);
-    transition: visibility, opacity 0.3s ease-in-out;
+    color: white;
+    display: block;
+        position: relative;
+        margin: 0 auto;
+        bottom: 2rem;
 }
-.new {
+
+#addIcon:hover {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+}
+
+/* notes */
+
+.new-note {
     display: inline-block;
+    padding: 1rem;
+    margin: 3rem
+    border: 1px solid black;
+}
+
+.notes {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    margin: 0px 10px 10px;
+    margin-left: 5rem;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+
+    /* align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    border: 1px black solid;
+    margin: 1rem; */
+}
+
+.note-content {
+    padding: 10px 16px 16px;
+    font-size: 20px;
+    /* text-align: center;
+    border-radius: 8px;
+    cursor: pointer; */
+
 }

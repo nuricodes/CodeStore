@@ -15,7 +15,7 @@ class Index extends React.Component {
           </ul>
 
           {notes.map((note) => (
-            <div>
+            <div class="notes">
               {/* not created */}
               <h2>{note.note}</h2>
               {/* delete button */}

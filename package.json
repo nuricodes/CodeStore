@@ -13,6 +13,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.5.3",
+    "codemirror": "^5.58.3",
     "connect-mongo": "^3.2.0",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
@@ -24,6 +25,7 @@
     "morgan": "^1.10.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
+    "react-codemirror2": "^7.2.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {

@@ -43,7 +43,7 @@ class Layout extends React.Component {
           <footer>
           </footer>
         </body>
-      </html>
+      </html >
     );
   }
 }

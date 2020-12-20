@@ -1,17 +1,14 @@
 /* LANDING */
 * {
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
+    padding: 0;
+    margin: 0;
 }
 
-.navbar-toggler-icon {
-    /* color: white;
-    font-size: 1.6rem; */
+.layout {
+    background-color: #F4FBFD;
 }
-/* .logo {
-    height: 50px;
-   top: -10px;
-} */
 .homepage {
     background: url('../img/background.png');
     background-position: center;
@@ -146,41 +143,60 @@ color: #fff;
         bottom: 2rem;
 }
 
-#addIcon:hover {
-    background-color: yellow;
-    color: black;
-    text-decoration: none;
-}
 
 /* notes */
+/* .header {
+    float: left;
+} */
 
 .new-note {
     display: inline-block;
     padding: 1rem;
-    margin: 3rem
-    border: 1px solid black;
+    margin: 1.5rem -1rem 1rem 3rem;
+    opacity: .9;
 }
 
 .notes {
-    display: flex;
+    display: inline-block;
     width: 280px;
     height: 280px;
-    margin: 0px 10px 10px;
-    margin-left: 5rem;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
-
-    /* align-items: center;
-    justify-content: center;
-    padding-top: 10rem;
-    border: 1px black solid;
-    margin: 1rem; */
+    margin-left: 1rem;
+    box-shadow: 1px 3px 5px 3px rgba(0, 0, 0, 0.2);
+    background: #000;
+    color: #f2e1f2;
+    letter-spacing: .1em;
+    border-radius: 1rem;
+    padding: 1rem;
+    overflow: scroll;
 }
 
-.note-content {
-    padding: 10px 16px 16px;
-    font-size: 20px;
-    /* text-align: center;
-    border-radius: 8px;
-    cursor: pointer; */
-
+#note-nav {
+    color: white;
+            width: 280px;
+            line-height: 30px;
+            margin: -1rem;
+            padding: -.5rem;
+            border-radius: 15px 15px 0 0;
+}
+.delete {
+            width: 53px;
+            height: 53px;
+            border-radius: 100%;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+}
+.edit {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+.edit:focus, .delete:focus {
+    outline: 0;
+}
+.edit:hover, .delete:hover {
+    transform: scale(1.3);
 }

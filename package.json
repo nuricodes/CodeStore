@@ -13,7 +13,6 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.5.3",
-    "codemirror": "^5.58.3",
     "connect-mongo": "^3.2.0",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",

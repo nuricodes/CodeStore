@@ -1,13 +1,11 @@
 const React = require("react");
 const Layout = require("../layout.jsx");
-// const { default: Editor } = require("./editor.js");
 
 class Index extends React.Component {
   render() {
     const { notes } = this.props
     return (
       <Layout title="New Notes">
-        {/* <Editor> */}
         <div className="notes">
           <form action="/notes/" method="post">
             {/* <input type="text" placeholder="title" /> */}
@@ -16,7 +14,6 @@ class Index extends React.Component {
             <input type="submit" value="create note" />
           </form>
         </div>
-        {/* </Editor> */}
       </Layout>
     );
   }

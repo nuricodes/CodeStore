@@ -15,7 +15,7 @@ class Layout extends React.Component {
         </head>
         <body>
           <header>
-            <nav class="navbar navbar-dark bg-dark">
+            <nav class="navbar navbar-dark bg-dark" id="navbar">
               <a class="navbar-brand" href="/"><span class="code">CodeStore++</span></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

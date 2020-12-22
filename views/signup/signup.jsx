@@ -18,7 +18,7 @@ class Signup extends React.Component {
                         <input type="password" name="password" class="form-control" id="formGroupExampleInput2" placeholder="********"></input>
                     </div>
                     <br></br>
-                    <input type="submit" value="signup" />
+                    <input type="submit" value="Sign Up" className="signupbtn" />
                     <p className="terms">By clicking Sign up, I agree to the <a href="/">Terms of Service</a> and <a href="/">Privacy Policy.</a></p>
                     <br></br>
                 </form>

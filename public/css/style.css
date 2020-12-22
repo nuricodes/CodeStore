@@ -10,10 +10,47 @@
     margin: 0;
 }
 
-
-.navbar {
-position: fixed;
+/* nav */
+.menu-bar {
+    background-image: linear-gradient(-90deg, #1059AA, #39BCBA);
 }
+
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: 400;
+}
+
+.navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.menu-bar .navbar-toggle {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+
+.navbar .fa {
+    color: #fff!important;
+    font-size: 26px;
+}
+
+.navbar .navbar-brand {
+    font-size: 20px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+}
+
+/* landing */
 .homepage {
     background: url('../img/background.png');
     background-position: center;
@@ -44,8 +81,25 @@ position: fixed;
     font-size: 20px;
     font-weight: lighter; 
 }
-/* SIGNUP COMPONENT */
+/* buttons/input */
 
+.signupbtn, .loginbtn {
+    border: none;
+    background-color: #1059AA;
+    color: white;
+    padding: .5em 1em;
+    text-align: center;
+    border-radius: 100000px;
+    outline: none;
+}
+.signupbtn:hover, .loginbtn:hover {
+    border: none;
+    background-color: #39BCBA;
+    
+}
+
+
+/* SIGNUP COMPONENT */
 .landingform {
     border: 1px solid darkgray;
     border-radius: .5rem;
@@ -78,17 +132,18 @@ position: fixed;
   align-items: center;
   justify-content: center;
   width: 600px;
-  height: 540px;
+  height: 440px;
   padding: 10px;
   /* padding-top: 15px; */
   border: none;
   border-radius: 1rem;
-  box-shadow: 0 7px 30px rgba(59, 121, 102, 0.3);
+  box-shadow: 0 7px 30px rgba(50, 96, 122, 0.3);
 }
 .form {
 width: 50%;
 height: 100%;
 color: #fff;
+position: relative;
 }
 #login { 
     background-color: rgba(16,89,170,.8);
@@ -113,7 +168,7 @@ color: #fff;
     padding: 5%;
     width: 650px;
     height: 480px;
-    box-shadow: 0 7px 30px rgba(59, 121, 102, 0.3);
+    box-shadow: 0 7px 30px rgba(50, 96, 122, 0.3);
     margin-left: 30%;
 }
 
@@ -125,7 +180,7 @@ color: #fff;
   cursor:pointer;
   transition: all .3s ease 0s;
   height: 100px;
-  background: rgba(7, 60, 121);
+  background: #1059AA;
   border-radius: 50%;
   position: fixed;
     bottom: 65px;
@@ -133,7 +188,7 @@ color: #fff;
 }
 
 #plus:hover {
-    background-color: rgb(16,89,170);
+    background-color: #39BCBA;
 }
 
 #addNoteContainer {
@@ -174,12 +229,13 @@ color: #fff;
 
 /* /notes page */
 .index, .new, .editNote {
-    background: url('https://i.imgur.com/PDKxvvX.png');
+    background: url("https://i.imgur.com/nn3os0p.png");
     background-position: center;
     background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
    height: 100vh;
+   
 }
 
 .new, .editNote {
@@ -189,7 +245,7 @@ color: #fff;
     display: inline-block;
     padding: 1rem;
     margin: 1.5rem -1rem 1rem 3rem;
-    opacity: .9;
+    opacity: .8;
 }
 
 .notes {
@@ -198,8 +254,9 @@ color: #fff;
     height: 280px;
     margin-left: 1rem;
     box-shadow: 1px 3px 5px 3px rgba(0, 0, 0, 0.2);
-    background: #1d262b;
-    color: #F6F6F6;
+    background: #000;
+    opacity: .8;
+    color: #08f7fe;
     letter-spacing: .1em;
     border-radius: 1rem;
     padding: 1rem;
@@ -223,7 +280,7 @@ color: #fff;
     cursor: pointer;
     border: none;
     background: #000;
-    opacity: .9;
+    opacity: .8;
 }
 .edit:focus, .delete:focus {
     outline: 0;
@@ -238,7 +295,7 @@ color: #fff;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    opacity: .9;
+    opacity: .8;
     width: 500px;
     height: 400px;
 }
@@ -247,10 +304,10 @@ color: #fff;
     width: 500px;
     height: 400px;
     background: transparent;
-    opacity: .8;
+    opacity: .9;
     border: none;
     text-align: center;
-    color: #f2e1f2;
+    color: #08f7fe;
     letter-spacing: .1em;
 
 }

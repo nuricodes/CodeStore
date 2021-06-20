@@ -20,7 +20,7 @@ Codestore+ is a MERN stack application that allows users to store snippets of no
 
 ## Usage
 
-1. run `node server.js`
+1. run `npm start`
 2. Navigate to `localhost:5000`
 
 ## Credit

@@ -1,6 +1,6 @@
 # CodeStore+
 
-## MERN
+## <p><a href="https://thawing-citadel-29764.herokuapp.com/" rel="nofollow">Visit Site</a></p>
 
 ![bookmark](https://i.imgur.com/xNBqFKh.png)
 
@@ -8,9 +8,7 @@ Codestore+ is a MERN stack application that allows users to store snippets of no
 
 ## DEMO
 
-![Alt Text](https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif)
-
-<img src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" width="200%" alt="CodeStore++" data-canonical-src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" style="max-width:200%;">
+<img src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" width="150%" alt="CodeStore++" data-canonical-src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" style="max-width:200%;">
 
 ## Installation
 

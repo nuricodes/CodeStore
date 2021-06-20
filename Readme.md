@@ -1,10 +1,16 @@
-# MERN stack app!
+# CodeStore+
 
-## CodeStore+
+## MERN
 
 ![bookmark](https://i.imgur.com/xNBqFKh.png)
 
-Codestore+ is a MERN stack application that allows users to store snippets of notes in an easy-to-use environment. The user is able to sign up, log in to their account, create, update, and delete code snippets that can be accessed from anywhere. Below I will attach a few screenshots of a couple of pages on my web application.
+Codestore+ is a MERN stack application that allows users to store snippets of notes in an easy-to-use environment. The user is able to sign up, log in to their account, create, update, and delete code snippets that can be accessed from anywhere. As a programmer who often searches for the same information over and over again, I wanted to create a simple environment where I could store information I reference frequently. 
+
+## DEMO
+
+![Alt Text](https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif)
+
+<img src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" width="200%" alt="CodeStore++" data-canonical-src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" style="max-width:200%;">
 
 ## Installation
 

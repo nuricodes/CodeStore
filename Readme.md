@@ -8,7 +8,7 @@ Codestore+ is a MERN stack application that allows users to store snippets of no
 
 ## DEMO
 
-<img src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" width="150%" alt="CodeStore++" data-canonical-src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" style="max-width:200%;">
+<img src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" width="150%" alt="CodeStore++" data-canonical-src="https://media.giphy.com/media/oNb8Tr7Fxvj0jSUFcn/giphy.gif" style="max-width:150%;">
 
 ## Installation
 
